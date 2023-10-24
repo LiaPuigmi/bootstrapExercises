@@ -1,0 +1,21 @@
+
+$primary:    #6610f2;
+$secondary:  #ffff00;
+$success:    #7effd8;
+$info:       #085833;
+$warning:    #f397c5;
+$danger:     #8d0512;
+$light:      #9eedfc;
+$dark:       #003743;
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/mixins';
+
+@include media-breakpoint-up(xs){
+    .h-100{
+        height: 100vh !important;
+    }  
+}
