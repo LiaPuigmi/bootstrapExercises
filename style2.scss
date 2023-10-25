@@ -15,26 +15,17 @@ $grid-breakpoints: (
 
 @include media-breakpoint-between(xs,lg){
    
-
     .container-fluid{
         background-color: violet;
-    }
-
-    .h-100{
-        height: 100vh !important;
     }
 }
 
 @include media-breakpoint-between(lg,xxl){
-   
 
     .container-fluid{
         background-color: green;
     }
 
-    .h-100{
-        height: 100vh !important;
-    }
 }
 
 @include media-breakpoint-up(xxl) {
@@ -42,7 +33,4 @@ $grid-breakpoints: (
         background-color: green;
     }
 
-    .h-100{
-        height: 100vh !important;
-    }
-  }
+}
