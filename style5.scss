@@ -7,3 +7,35 @@ $danger:     #8d0512;
 $light:      #9eedfc;
 $dark:       #003743;
 @import './node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/mixins';
+
+html {
+    font-size: 0.2rem;
+  }
+
+  @include media-breakpoint-up(xs) {
+    html {
+      font-size: 0.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 0.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 0.6rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
